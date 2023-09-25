@@ -1,19 +1,6 @@
 {
-  "window.zoomLevel": 1,
-  "editor.fontSize": 13,
-  "workbench.startupEditor": "none",
-  "explorer.compactFolders": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-    "code-runner.executorMap": {
-        "python": "clear ; python -u",
-    },
-  "terminal.integrated.detectLocale": "off",
-  "java.debug.settings.forceBuildBeforeLaunch": false,
-  "liveshare.anonymousGuestApproval": "accept",
-  "liveshare.connectionMode": "relay",
-  "code-runner.runInTerminal": true,
-  "code-runner.ignoreSelection": true,
+  "window.zoomLevel": 0,
+   "editor.fontSize": 13,
   "python.languageServer": "Pylance", // ms-python.vscode-pylance
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
@@ -24,13 +11,8 @@
     "--load-plugins=pylint_django",
     "--errors-only"
   ],
-  "python.formatting.autopep8Args": [
-    "--indent-size=4"
-  ],
-  // "python.defaultInterpreterPath": "venv/bin/python",
-  //"python.defaultInterpreterPath": "C:\\Users\\tampe\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
-  "python.defaultInterpreterPath": ".\\venv\\Scripts\\activate"   ,
-  
+  "python.formatting.autopep8Args": ["--indent-size=4"],
+  "python.defaultInterpreterPath": ".\\venv\\Scripts\\activate",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python", // ms-python.python
     "editor.tabSize": 4,
@@ -75,12 +57,5 @@
     "django-html": "html", // batisteo.vscode-django
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
-  },
-  "terminal.integrated.commandsToSkipShell": [
-    "language-julia.interrupt"
-  ],
-  "julia.symbolCacheDownload": true,
-  "julia.enableTelemetry": false,
-  "RainbowBrackets.depreciation-notice": false,
-  
+  }
 }
